@@ -1,3 +1,5 @@
+"""Python Script that takes in the recorded video and transcribes it."""
+
 #pip install openai-whisper
 #pip install ffmpeg
 #brew install ffmpeg
@@ -7,7 +9,6 @@ import whisper
 model = whisper.load_model("base")
 
 def transcribe():
-  
   #path to recorded video on local device
   video_in = 'video.mp4'
 
